@@ -1,4 +1,8 @@
 box: debian
+build:
+  steps:
+    - npm-install:
+
 deploy:
 # The steps that will be executed on build
   steps:
