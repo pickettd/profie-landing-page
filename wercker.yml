@@ -1,7 +1,10 @@
 box: debian
 build:
   steps:
-    - npm-install:
+    - script:
+        name: some simple test!
+        code: |-
+          echo "line 1"
 
 deploy:
 # The steps that will be executed on build
