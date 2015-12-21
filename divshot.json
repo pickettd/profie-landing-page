@@ -1,0 +1,6 @@
+{
+  "name": "take-my-profie",
+  "root": "./",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
